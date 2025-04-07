@@ -1,15 +1,8 @@
-import Head from 'next/head';
-import ProveedorApp from '../components/ProveedorApp';
-
+// pages/index.js
 export default function Home() {
   return (
-    <>
-      <Head>
-        <title>Clasificación de Proveedores</title>
-      </Head>
-      <main className="p-4">
-        <ProveedorApp />
-      </main>
-    </>
+    <div>
+      <h1>Bienvenido a la aplicación de clasificación de proveedores</h1>
+    </div>
   );
 }
