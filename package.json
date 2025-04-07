@@ -1,0 +1,22 @@
+{
+    "name": "proveedores-gmp",
+    "version": "1.0.0",
+    "description": "Proyecto para la clasificaci\u00f3n de proveedores con impacto GMP",
+    "main": "index.js",
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start"
+    },
+    "dependencies": {
+        "next": "^13.0.0",
+        "react": "^18.0.0",
+        "react-dom": "^18.0.0"
+    },
+    "devDependencies": {
+        "tailwindcss": "^3.0.0",
+        "postcss": "^8.0.0",
+        "autoprefixer": "^10.0.0"
+    },
+    "license": "ISC"
+}
