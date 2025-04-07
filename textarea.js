@@ -1,3 +1,10 @@
-export function Textarea({ ...props }) {
-  return <textarea {...props} className="border border-gray-300 rounded-md px-3 py-2 w-full" rows="4" />;
+export function Textarea({ placeholder, value, onChange }) {
+  return (
+    <textarea
+      className="border rounded-xl p-2"
+      placeholder={placeholder}
+      value={value}
+      onChange={onChange}
+    />
+  );
 }
